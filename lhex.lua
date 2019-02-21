@@ -57,7 +57,7 @@ if not file then
 end
 
 local function width()
-	return math.ceil(termfx.width() / 3)
+	return math.ceil((termfx.width() - 1) / 3)
 end
 
 local function height()
