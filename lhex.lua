@@ -125,8 +125,6 @@ local ok, err = pcall(function()
 				quit = true
 			elseif char == "h" or char == "?" then
 				help = not help
-			elseif char == "d" then
-				dump()
 			elseif key == termfx.key.HOME then
 				offset = 0
 			elseif key == termfx.key.END then
